@@ -1,0 +1,7 @@
+Array
+(
+    [id] => 58
+    [qty] => 5
+    [kota_tujuan] => Jakarta
+    [ekspedisi] => JNE
+)

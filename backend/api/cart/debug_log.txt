@@ -1,0 +1,2 @@
+RAW:
+{"produk_id":"13","nama_produk":"IKAN KOI","berat":"1","harga":"50000","qty":1,"kota_tujuan":"Jakarta","ekspedisi":"JNE","gambar":"1752224528_IKAN KOI.jpg"}
