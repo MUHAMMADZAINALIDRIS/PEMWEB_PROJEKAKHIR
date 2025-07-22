@@ -20,6 +20,7 @@ $id = $data->id ?? null;
 $nama = $data->nama ?? null;
 $deskripsi = $data->deskripsi ?? null;
 $kategori = $data->kategori ?? null;
+$berat = $data->berat ?? null;
 $harga = $data->harga ?? null;
 $gambar = $data->gambar ?? null;
 
@@ -32,10 +33,10 @@ if (!$id || !$nama || !$harga) {
     exit;
 }
 
-// ✅ Ganti nama tabel di sini ↓↓↓↓↓
-$query = "UPDATE productFish SET nama=?, deskripsi=?, kategori=?, harga=?, gambar=? WHERE id=?";
+// Ganti nama tabel
+$query = "UPDATE productFish SET nama=?, deskripsi=?, kategori=?, berat=?, harga=?, gambar=? WHERE id=?";
 $stmt = $conn->prepare($query);
-$stmt->bind_param("sssisi", $nama, $deskripsi, $kategori, $harga, $gambar, $id);
+$stmt->bind_param("sssdisi", $nama, $deskripsi, $kategori, $berat, $harga, $gambar, $id);
 
 // Eksekusi dan kirim response
 if ($stmt->execute()) {

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jul 14, 2025 at 04:53 AM
+-- Generation Time: Jul 21, 2025 at 11:02 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -42,12 +42,11 @@ CREATE TABLE `productfish` (
 --
 
 INSERT INTO `productfish` (`id`, `nama`, `deskripsi`, `kategori`, `berat`, `harga`, `gambar`) VALUES
-(11, 'IKAN GUPPY', 'IS BLUE', 'hias', 1, 15000, 'IKAN GUPPY.jpg'),
-(12, 'IKAN NILA/MUJAIR', 'Putih, Lezat dimakan', 'konsumsi', 1, 25000, '1752224467_IKAN MUJAIR.jpg'),
-(13, 'IKAN KOI', 'Menarik dan unik', 'hias', 1, 50000, '1752224528_IKAN KOI.jpg'),
-(14, 'IKAN ARWANA', 'Ikan Berkelas', 'hias', 1, 200000, '1752224597_IKAN ARWANA.jpg'),
+(12, 'IKAN NILA', 'Lezat dimakan nyamnyam', 'konsumsi', 2, 50000, '1752224467_IKAN MUJAIR.jpg'),
+(13, 'IKAN KOI', 'Menarik dan unik', 'hias', 1, 30000, '1752224528_IKAN KOI.jpg'),
 (16, 'IKAN CUPANG', 'Indah dan berestetika', 'hias', 1, 21000, '1752224753_IKAN CUPANG.jpeg'),
-(17, 'IKAN LELE', 'Air tawar, berkhasiat', 'konsumsi', 1, 19000, '1752224811_IKAN LELE.jpeg');
+(17, 'IKAN LELE', 'Air tawar, berkhasiat', 'konsumsi', 1, 19000, '1752224811_IKAN LELE.jpeg'),
+(22, 'IKAN GURAME', 'Besar, Banyak Khasiat', 'konsumsi', 1, 31000, '1753091485_IKAN GURAME.jpg');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +66,7 @@ ALTER TABLE `productfish`
 -- AUTO_INCREMENT for table `productfish`
 --
 ALTER TABLE `productfish`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -10,7 +10,7 @@ const FishProduct = () => {
   const [produkList, setProdukList] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost/backend/api/ProductFish/read.php')
+    fetch('http://192.168.157.24/backend/api/ProductFish/read.php')
       .then(res => res.json())
       .then(data => {
         console.log("Data produk:", data); // 🔍 cek isi
@@ -46,7 +46,7 @@ const FishProduct = () => {
     };
 
     try {
-      const res = await fetch("http://localhost/backend/api/cart/createCart.php", {
+      const res = await fetch("http://192.168.157.24/backend/api/cart/createCart.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -93,7 +93,7 @@ const FishProduct = () => {
             <img
               src={
                 produk.gambar
-                  ? `http://localhost/backend/api/productFish/upload/${produk.gambar}`
+                  ? `http://192.168.157.24/backend/api/productFish/upload/${produk.gambar}`
                   : ikanDefault
               }
               alt={produk.nama}
@@ -138,7 +138,7 @@ const FishProduct = () => {
             <img
               src={
                 selectedProduct.gambar
-                  ? `http://localhost/backend/api/ProductFish/upload/${selectedProduct.gambar}`
+                  ? `http://192.168.157.24/backend/api/ProductFish/upload/${selectedProduct.gambar}`
                   : ikanDefault
               }
               alt={selectedProduct.nama}
