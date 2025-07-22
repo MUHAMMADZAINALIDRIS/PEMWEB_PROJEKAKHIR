@@ -7,5 +7,5 @@ Link Youtube Presentasi Project Yosi (14523030)
 https://youtu.be/iS24gxZKiJ4?si=0G-ZVQemp2NEEquy
 
 Link Drive/Youtube Presentasi Project Muhammad Zainal Idris (14523015)
-https://drive.google.com/drive/folders/1ct9biiPMb7Zv9RwUsMw0Q4wvKK3oHuSb
+https://youtu.be/yvtqWF9-CY0?si=Q1A56YglsHeb5CWc
 
